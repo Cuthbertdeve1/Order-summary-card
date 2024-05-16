@@ -1,0 +1,131 @@
+       body{
+          background-image: url(images/pattern-background-desktop.svg);
+          background-repeat: no-repeat;
+          background-color:hsl(225, 100%, 94%);
+          font-family:'Red Hat Display';
+           font-weight:500;
+       }
+       .card{
+        width:30%;
+         margin:10% auto;
+          border-radius: 1rem;
+       }
+       .card-img{
+         border-top-right-radius:5%;
+         border-top-left-radius:5%;
+         border-bottom-left-radius:0;
+           border-bottom-right-radius:0;
+       }
+       .card-body{
+         margin:15px;
+       }
+       .card-title{
+         color: hsl(223, 47%, 23%);
+         font-weight:900;
+         padding-bottom:5px;
+       }
+       .card-text{
+         padding-bottom:5px;
+       }
+       .music{
+         background-color:hsl(225, 100%, 98%);
+         border-radius:10%;
+         text-align:start;
+         padding:10px 15px;
+       }
+       .price{
+         display:inline-block;
+         margin-top:5px;
+       }
+       .dis{
+        text-align:left;
+       }
+       .p-text{
+         color:hsl(224, 23%, 55%);
+
+       }
+       .h-text{
+         color:hsl(223, 47%, 23%);
+          font-weight:700;
+       }
+
+       .music-img{
+         float:left;
+         padding-right:10px;
+       }
+       .price-link{
+         margin-top:15px;
+         float:right;
+          font-weight:500;
+        text-align:end;
+
+       }
+       .link{
+         color:hsl(245, 75%, 52%);
+       }
+       .link:hover{
+        color:#7a5cf4;
+        text-decoration: none;
+       }
+       .d-grid{
+         margin-top:20px;
+       }
+       .btn-primary{
+         background-color:hsl(245, 75%, 52%);
+      }
+      .btn:hover{
+        background-color:#7a5cf4;
+      }
+       .btn-outline-light:hover{
+         background-color:#fff;
+       }
+      @media(max-width:1400px){
+        .card{
+         width:35%;
+          margin:10% auto;
+        }
+      }
+
+      @media(max-width:1200px){
+        .card{
+         width:40%;
+          margin:10% auto;
+        }
+      }
+      @media(max-width:992px){
+        body{
+           background-image: url(images/pattern-background-mobile.svg);
+             background-repeat: no-repeat;
+           background-color:hsl(225, 100%, 94%);
+           font-family:'Red Hat Display';
+            font-weight:500;
+        }
+        .card{
+         width:50%;
+          margin:10% auto;
+        }
+      }
+      @media(max-width:770px){
+        .card{
+         width:70%;
+          margin:10% auto;
+        }
+      }
+      @media(max-width:540px){
+        .card{
+         width:80%;
+          margin:10% auto;
+        }
+      }
+      @media(max-width:480px){
+        .card{
+         width:95%;
+          margin:10% auto;
+        }
+      }
+      @media(max-width:365px){
+        .card{
+         width:100%;
+          margin:10% auto;
+        }
+      }
