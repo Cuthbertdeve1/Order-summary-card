@@ -29,7 +29,7 @@
        }
        .music{
          background-color:hsl(225, 100%, 98%);
-         border-radius:10%;
+         border-radius:1rem;
          text-align:start;
          padding:10px 15px;
        }
